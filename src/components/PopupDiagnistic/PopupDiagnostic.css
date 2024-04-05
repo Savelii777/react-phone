@@ -142,3 +142,42 @@
 .popupDiagnostic__form-button:hover {
     background-color: #dece40; /* Затемненный цвет фона при наведении */
 }
+@media screen and (max-width: 750px) {
+    .popupDiagnostic__container{
+        width: 100%;
+    }
+    .popupDiagnostic__title{
+        width: 80%;
+        margin: 30px auto;
+
+
+    }
+}
+@media screen and (max-width: 550px) {
+    .popupDiagnostic__title{
+        width: 80%;
+        margin: 30px auto;
+        font-size: 24px;
+        line-height: 35px;
+        height: 120px;
+
+    }
+    .popupDiagnostic__close{
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+    .popupDiagnostic__text{
+        margin: 20px auto;
+        width: 80%;
+        margin-top: 60px;
+    }
+    .popupDiagnostic__form-input{
+        width: 80%;
+    }
+    .popupDiagnostic__form-button{
+        width: 85%;
+        font-size: 20px;
+    }
+
+}

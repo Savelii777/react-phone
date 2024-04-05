@@ -116,9 +116,59 @@
         align-items: center;
         width: 100%;
     }
+    .working__slider{
+        margin: 0 auto;
+        object-fit: contain; /* Масштабирует изображение, сохраняя пропорции, и помещает его в контейнер */
+
+    }
+    .working__slider > * {
+        max-width: 100%; /* Максимальная ширина элемента будет 100% относительно родительского элемента */
+        height: auto; /* Высота элемента будет автоматически подстраиваться под ширину */
+        object-fit: contain; /* Масштабирует изображение, сохраняя пропорции, и помещает его в контейнер */
+    }
     .working__textcontainer{
         margin-top: 20px;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   .working__title{
+       width: 100%;
+   }
+
+}
+@media screen and (max-width: 800px) {
+    .working__slider{
+        display: none;
+    }
+    .working__container{
+        border-radius: 25px;
+        margin-top: 30px;
+        min-height: 600px;
+    }
+    .working__title{
+        width: 100%;
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 0;
+
+    }
+    .working__textcontainer-text{
+        width: 90vw;
+        text-align: left;
+    }
+    .working__list{
+        width: 90vw;
+    }
+    .working__list-text{
+        text-align: left;
+    }
+    .working__button{
+        margin-top: 70px;
+    }
+    .working__textcontainer{
+        width: 80%;
     }
 }

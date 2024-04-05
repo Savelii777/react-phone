@@ -3,9 +3,28 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 1300px;
+    height: 1500px;
     position: relative;
 }
+.contactsPage__list-link{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.contacts__row{
+margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts__col{
+    margin-right: 20px;
+    max-width: 350px;
+display: flex;
+    flex-direction: column;
+}
+
 .contactsPage__title{
     margin-top: 52px;
     margin-bottom: 0;
@@ -29,8 +48,8 @@
 
 }
 .contactsPage__text{
-    width: 440px;
-    height: 250px;
+    width: 80%;
+    max-width: 1000px;
     margin-top: 52px;
     margin-left: 72px;
     display: flex;
@@ -176,5 +195,66 @@
     .contactsPage__form{
         width: 80%;
         margin: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contacts__row{
+        width: 80%;
+        margin: 0;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacts__col {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .contactsPage{
+        height: 1900px;
+    }
+    }
+
+@media screen and (max-width: 550px) {
+    .contactsPage{
+        height: 1930px;
+    }
+    .contactsPage__title{
+        margin: 10px auto;
+        width: max-content;
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .contactsPage__text{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .contactsPage__list-bottom{
+        width: 80%;
+        margin: 0;
+    }
+    .contactsPage__form{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .contactsPage__form-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactsPage__form-input{
+        width: 80%;
+        margin: 10px auto;
+    }
+    .contactsPage__form-button{
+        width: 90%;
+        margin: 10px auto;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .contactsPage{
+        height: 2000px;
     }
 }

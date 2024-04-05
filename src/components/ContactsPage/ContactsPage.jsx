@@ -14,31 +14,79 @@ function ContactsPage({onEdit}) {
                 width="1000" height="540" frameBorder="0"></iframe>
             <div className="contactsPage__text" style={{position: "relative"}}>
                 <p><span>Будем рады видеть Вас в нашем офисе: </span></p>
-                <p>
-                    Графская д.11 <br/>
-                    Петровский б-р д.3 к.1 <br/>
-                    Пн-Вс с 10:00 до 21:00
-                </p>
-                <p>
-                    +7 (901) 132-08-75
-                </p>
-                <span style={{color: "#f5f5f5", position: "absolute", bottom: "30px"}}>
+                <div className="contacts__row">
+                    <div className="contacts__col">
+                        <p>
+                    <span>
+                        м. Девяткино (Мурино, Бугры)
+                    </span>
+                        </p>
+                        <p style={{marginTop:'20px'}}>
+                            ул.Петровский Бульвар 3к1 (вход с торца здания) "Починим Всё" <br/>
+                            +7(981)759-57-47<br/>
+                            пн-пт: 10:00-21:00; сб,вс: 10:00-20:00
+                        </p>
+                        <p style={{marginTop: '20px'}}>
+                            ул.Графская 11 (вход с торца здания) "Murino.online" <br/>
+                            +7(999)034-32-97<br/>
+                            пн-пт: 10:00-21:00; сб,вс: 10:00-20:00
+                        </p>
+                    </div>
+
+                    <div className="contacts__col">
+                        <p>
+                    <span>
+                        м.Звездная
+                    </span>
+                        </p>
+                        <p style={{marginTop: '20px'}}>
+                            ул.Звездная 14 (вход со стороны улицы Звездная)
+                            СЦ "Звездный" <br/>
+                            +7 (812)317-33-12<br/>
+                            временно работаем по предварительному звонку
+                        </p>
+                    </div>
+                    <div className="contacts__col">
+                        <p>
+                    <span>
+                        г.Парголово
+                    </span>
+                        </p>
+                        <p style={{marginTop: '20px'}}>
+                            ул.Тихоокеанская 18к2 (вход со двора, возле 1 парадной)<br/>
+                            +7(911)781-62-54<br/>
+                            СКОРО ОТКРЫТИЕ
+                        </p>
+                    </div>
+                </div>
+
+
+                <span style={{color: "#f5f5f5", position: "absolute", fontSize:"10px", bottom: "0px", right:"0px"}}>
                     ИНН - 780112887422 <br/>
                     Вересов Вадим Валерьевич
                 </span>
             </div>
             <ul className="contactsPage__list-bottom">
                 <li className="contactsPage__list_telegram">
+                    <a className="contactsPage__list-link" href="https://t.me/repairmurino" target="_blank"
+                       rel="noopener noreferrer">
+                    </a>
                 </li>
                 <li className="contactsPage__list_whatsapp">
-
+                    <a className="contactsPage__list-link" href="https://api.whatsapp.com/send/?phone=79117816254&text&type=phone_number&app_absent=0" target="_blank"
+                       rel="noopener noreferrer">
+                    </a>
                 </li>
                 <li className="contactsPage__list_vk">
-
+                    <a className="contactsPage__list-link" href="https://vk.com/pochinimvsemurino" target="_blank"
+                       rel="noopener noreferrer">
+                    </a>
                 </li>
-                <li className="contactsPage__list_youtube">
-
-                </li>
+                {/*<li className="contactsPage__list_youtube">*/}
+                {/*    <a className="contactsPage__list-link" href="https://www.youtube.com/example" target="_blank"*/}
+                {/*       rel="noopener noreferrer">*/}
+                {/*    </a>*/}
+                {/*</li>*/}
             </ul>
             <form className="contactsPage__form" action="">
                 <p className="contactsPage__form-text">Оставьте свой номер и получите консультацию мастера:</p>

@@ -29,23 +29,29 @@ function Header({onEdit}) {
                 </ul>
             </nav>
             <div className="header__contacts">
-                <p className="contacts__time">Пн-Вс с 10:00 до 21:00</p>
+                <p className="contacts__time">Пн-Вс с 10:00 до 21:00
+                </p>
                 <button onClick={onEdit} className="contacts__button">
                     <div className="contacts__image"></div>
                     +7 (901) 132-08-75
                 </button>
                 <ul className="contacts__list">
                     <li className="contacts__list-image_telegram">
+                        <a className="contacts__list-link" href="https://t.me/repairmurino" target="_blank" rel="noopener noreferrer">
+                        </a>
                     </li>
                     <li className="contacts__list-image_whatsapp">
-
+                        <a className="contacts__list-link" href="https://api.whatsapp.com/send/?phone=79117816254&text&type=phone_number&app_absent=0"  target="_blank" rel="noopener noreferrer">
+                        </a>
                     </li>
                     <li className="contacts__list-image_vk">
-
+                        <a className="contacts__list-link" href="https://vk.com/pochinimvsemurino" target="_blank" rel="noopener noreferrer">
+                        </a>
                     </li>
-                    <li className="contacts__list-image_youtube">
-
-                    </li>
+                    {/*<li className="contacts__list-image_youtube">*/}
+                    {/*    <a className="contacts__list-link"  href="https://www.youtube.com/example" target="_blank" rel="noopener noreferrer">*/}
+                    {/*    </a>*/}
+                    {/*</li>*/}
                 </ul>
             </div>
         </header>

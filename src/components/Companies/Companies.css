@@ -72,4 +72,38 @@
     .companies__image{
         width: calc(100% - 25px);
     }
+
+}
+@media screen and (max-width: 800px) {
+
+    .companies__slider {
+        display: none;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .companies{
+        height: max-content;
+        margin-top: 0;
+    }
+
+    .companies__title{
+        margin-top: 50px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+    .companies__image{
+        width: 80%;
+        max-height: none; /* Удаляет максимальную высоту изображения */
+        height: auto; /* Высота изображения будет автоматически подстраиваться под ширину */
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+    .companies__subtitle{
+        display: none;
+    }
+    .ompanies__button{
+        margin-top: -50px;
+    }
 }

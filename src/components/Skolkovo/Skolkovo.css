@@ -136,3 +136,35 @@
         align-items: center;
     }
 }
+@media screen and (max-width: 800px) {
+    .skolkovo__container{
+        margin-top: 300px;
+        border-radius: 25px;
+    }
+    .skolkovo__title{
+        width: 80%;
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .skolkovo__subtitle{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .skolkovo__slider{
+       width: 80%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .skolkovo__textcontainer{
+        width: 100%;
+    }
+    .skolkovo__list-item{
+        width: 100%;
+        font-size: 20px;
+    }
+    .skolkovo__list{
+        margin: 40px auto;
+        width: 80%;
+    }
+}

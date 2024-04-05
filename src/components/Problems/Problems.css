@@ -229,3 +229,109 @@ margin-top: 400px;
         margin-top: 1000px;
     }
     }
+@media screen and (max-width: 800px) {
+    .problems{
+        margin-top: 100px;
+    }
+    .problems__description{
+        width: 80%;
+        font-size: 20px;
+        min-height: max-content;
+    }
+    .problems__list{
+        max-width: 100%;
+    }
+    .problems__list-item{
+        max-width: 80%;
+    }
+    .problems__container-image{
+        margin-top: 700px;
+
+    }
+    .problems__container-text{
+        width: 80%;
+        text-align: center;
+    }
+    .problems__container-left{
+        width: 90%;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .problems__form{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1200px;
+
+    }
+    .problems__form-input{
+        width: 50%;
+        margin-left: 10px;
+    }
+    .problems__form-button{
+        width: 50%;
+
+    }
+    .problems__form-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    .problems__container-right{
+        margin-right: 0;
+    }
+    .problems{
+        margin-top: 300px;
+    }
+    .problems__list-item{
+        font-size: 10px;
+    }
+    .problems__description{
+        width: 80%;
+        font-size: 16px;
+    }
+    .problems__title{
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 190px;
+        width: 70vw;
+    }
+    .problems__form-text{
+        margin-top: 0;
+        font-size: 18px;
+    }
+    .problems__form-input{
+        width: 70%;
+        margin: 20px auto;
+
+    }
+    .problems__form-subtext{
+        margin: 0;
+        margin-top: 40px;
+    }
+    .problems__form-button{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .problems__form{
+        margin-top: 1070px;
+        min-height: 350px;
+    }
+    .problems__form-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .problems__container-image{
+        margin: 0 auto;
+        margin-top: 600px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+}

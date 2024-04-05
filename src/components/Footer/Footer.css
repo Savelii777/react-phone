@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 100%;
     height: 170px;
-    background: #ECECEC;
+    background: #fff;
 }
 .footer__logo{
     margin-top: 38px;
@@ -26,4 +26,18 @@
     letter-spacing: 0em;
     text-align: right;
 
+}
+@media screen and (max-width: 550px) {
+    .footer__logo{
+        margin: 50px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 10px;
+        background-position: center;
+    }
+    .footer__text{
+        font-size: 14px;
+        width: 60%;
+        margin-right: 10px;
+    }
 }

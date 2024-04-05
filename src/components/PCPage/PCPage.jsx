@@ -34,7 +34,7 @@ function PCPage({onEditOrder, onEdit}) {
                   <First
                       backgroundImageClass={'backgroundImage7'}
                       title={'Сеть сервисных центров в Санкт-Петербурге и в Мурино'}
-                      subtitle1={'Бесплатный выезд мастера/курьер'}
+                      subtitle1={'Сделаем по оптимальной цене'}
                       subtitle2={'Железная гарантия на все услуги'}
                       onEditOrder={onEditOrder}
                   />

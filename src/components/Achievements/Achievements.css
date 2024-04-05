@@ -210,3 +210,58 @@
 .achievements__form-button:hover {
     background-color: #dece40; /* Затемненный цвет фона при наведении */
 }
+
+@media screen and (max-width: 800px) {
+ .achievements__title{
+     width: 100%;
+     font-size: 30px;
+     height: max-content;
+     line-height: 35px;
+ }
+    .achievements__subtitle{
+        width: 100%;
+    }
+    .achievements__list{
+        width: 100%;
+        align-items: center;
+    }
+.achievements__form{
+    width: 80%;
+    font-size: 14px;
+    margin: 30px auto;
+
+}
+.achievements__form-text{
+    font-size: 14px;
+
+}
+    .achievements__form-input{
+        width: 50%;
+        font-size: 14px;
+        padding: 0;
+
+    }
+    .achievements__form-button{
+        width: 50%;
+        font-size: 14px;
+padding: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .achievements{
+        margin-top: 300px;
+    }
+    .achievements__subtitle{
+        margin-bottom: 20px;
+    }
+    .achievements__list{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

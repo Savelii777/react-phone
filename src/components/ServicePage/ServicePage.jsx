@@ -22,7 +22,7 @@ function ServicePage({onEditOrder, onEdit}) {
         {title: "Проблемы с HDMI-подключением от 2500"},
         {title: "Вибрация или шум из динамиков от 1000"},
         {title: "Зашумленное изображение от 2000"},
-        {title: "Не работает интернет-браузер или приложения Smart TV от 2000"},
+        {title: "Не работают приложения Smart TV от 2000"},
         {title: "Неисправность USB-портов от 1500"},
         {title: "Мерцающий подсветка экрана от 4000"},
         {title: "Торможение или зависание интерфейса от 1500"},
@@ -34,7 +34,7 @@ function ServicePage({onEditOrder, onEdit}) {
                   <First
                       backgroundImageClass={'backgroundImage2'}
                       title={'Сеть сервисных центров в Санкт-Петербурге и в Мурино'}
-                      subtitle1={'Бесплатный выезд мастера/курьер'}
+                      subtitle1={'Сделаем по оптимальной цене'}
                       subtitle2={'Железная гарантия на все услуги'}
                       onEditOrder={onEditOrder}
 
