@@ -25,7 +25,7 @@ function Problems({list, backgroundImageClass, onEdit}) {
                 <div className="problems__container-left">
                     <p className="problems__container-text">
                         Устраняем практически все виды неисправностей <br/>
-                        и поможем, если ваше устройство:
+                        и поможем, если на вашем устройстве:
                     </p>
 
                     <ul className="problems__list">
