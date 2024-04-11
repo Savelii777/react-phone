@@ -1,3 +1,103 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 230px;
+
+    zoom: 0.9;
+}
+.text-style-title {
+    font-size: 3.429rem;
+    line-height: 1.25;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    margin: 0 auto 15px;
+    width: 100%;
+    max-width: 940px;
+    min-width: 100px;
+    word-break: break-word;
+}
+.list-wrapper {
+     padding-top: 30px;
+     display: flex;
+     justify-content: space-between;
+ }
+.grid-3-spaced {
+    margin: -25px 0 -25px -30px;
+    width: calc(100% + 60px);
+    max-width: 1200px;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.grid-3-spaced .grid-item {
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 25px 30px;
+    width: calc(33.333% - 60px);
+}
+.list-wrapper .list-title {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.list-title {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.text-style-strong {
+    font-size: 16px;
+    line-height: 1.444;
+    letter-spacing: .33px;
+}
+.list-wrapper .list-title span {
+     display: block;
+ }
+.item {
+    padding: 15px 0;
+    display: flex;
+}
+.item .content.no-img {
+    padding-left: 0;
+}
+.item .content {
+    align-self: center;
+    padding-left: 20px;
+    width: 100%;
+}
+.item .head {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.item .head .title {
+    min-width: 40px;
+    padding-right: 5px;
+}
+.item .head .delimiter {
+    flex-grow: 2;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 4px;
+    opacity: .3;
+}
+.delimiter {
+    border-bottom: 1px dotted #000;
+}
+.item .head .price {
+    flex-shrink: 0;
+    min-width: 30px;
+    max-width: 100px;
+    padding-left: 5px;
+    max-height: 50px;
+
+}
 .achievements{
     display: flex;
     flex-direction: column;
@@ -9,7 +109,7 @@
     width: 742px;
     height: 104px;
     margin: 0 auto;
-    margin-top: 230px;
+    margin-top: 70px;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
@@ -263,5 +363,8 @@ padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .container {
+        zoom: 0.6;
     }
 }

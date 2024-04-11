@@ -154,4 +154,8 @@ background-position: center;
     .header__nav-item{
         margin-bottom: 20px;
     }
+    .contacts__list{
+        padding: 0;
+        zoom: 1.5;
+    }
 }
