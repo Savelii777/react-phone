@@ -48,7 +48,7 @@
     height: 100%;
     width: 50%;
     margin-left: 0;
-    background: #ECECEC;
+    background: #FFF;
 
 }
 .firstAbout__list{
@@ -88,7 +88,7 @@
     margin-left: 55px;
     width: 625px;
     height: 147px;
-    background: #ECECEC;
+    background: #FFF;
     border-radius: 15px;
     box-shadow: 0px 4px 25px 0px #00000059;
 
@@ -153,7 +153,7 @@
     position: absolute;
     justify-content: space-between;
     flex-direction: row;
-    top:480px;
+    top:500px;
     left:0;
     width: 100%;
     max-height: 218px;

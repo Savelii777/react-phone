@@ -103,7 +103,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: #ECECEC;
+    background: #FFF;
+
 }
 .achievements__title{
     width: 742px;
@@ -279,7 +280,7 @@
     border-radius: 39px;
     padding: 0 0 0 29px;
     margin: 14px 16px 30px 24px;
-    background: #ECECEC;
+    background: #FFF;
     color: #000;
 }
 .achievements__form-button{
